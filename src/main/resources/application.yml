@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: authentication-service
+server:
+  address: '0.0.0.0'
+  port: 10061
+env:
+  url:
+    person-command-service: http://localhost:10011/command/personService
+    person-query-service: http://localhost:10012/query/personService
+    user-command-service: http://localhost:10021/command/userService
+    user-query-service: http://localhost:10022/query/userService
+    role-command-service: http://localhost:10031/command/roleService
+    role-query-service: http://localhost:10032/query/roleService
